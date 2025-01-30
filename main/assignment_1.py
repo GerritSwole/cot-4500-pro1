@@ -1,4 +1,4 @@
-###ALG 1, Bisection Method
+###ALG 1, Approximation Method
 import math
 
 print("Algorithm 1: Approximation Algorithm")
@@ -22,6 +22,8 @@ def approxAlg(xnull, tol):
     return print("\nConvergence after ", iter, " iterations")
 
 approxAlg(1.5, .000001)
+
+##alg 2 Bisection
 
 print("\nAlgorithm 2: Bisection Method")
 
@@ -47,6 +49,8 @@ bisectionAlg(.001, 1, 2, 100)
 print("\nAlgorithm 3: Fixed-Point Iteration function 1")
 
 import math
+
+##Alg 3 Fixed point
 
 def fixedPointAlg(tol, approx, max):
     iter = 1
@@ -97,6 +101,8 @@ fixedPointAlg(.000001, 1.5, 50)
 
 
 print("\nAlgorithm 4: Newton-Raphsom Method")
+
+##Alg 4 newton
 
 def newton(f,df,x_null, error, max_iter = 100):
 
