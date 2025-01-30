@@ -1,2 +1,3 @@
-Requires the math package, just run the assignment_1.py file in your terminal, all outputs should match the slides.
-install math
+Requires the math package (although the script includes its installation), 
+just run the assignment_1.py file in your terminal, all outputs should match the slides.
+
